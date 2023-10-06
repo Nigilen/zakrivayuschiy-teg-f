@@ -91,16 +91,8 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   inset-inline-start: -20px;
+  inset-block-start: 0;
   animation-duration: 0.5s;
-}
-
-@keyframes triangle-move {
-  from {
-    transform: translateX(0px);
-  }
-  to {
-    transform: translateX(4px);
-  }
 }
 
 .theme-menu__button[disabled]::before {
@@ -163,11 +155,11 @@
   line-height: 1.16667;
 }
 
-.article__body p {
+.article__text{
   margin-block: 0 27px;
 }
 
-.article__body p:last-of-type {
+.article__opinion {
   margin-block-end: 25px;
 }
 
@@ -279,6 +271,11 @@
   transition-duration: 0.3s;
 }
 
+.like-icon {
+  width: 39px;
+  height: 36px;
+}
+
 .like-icon:hover .core {
   fill: var(--heart-hover, #000);
   transition-delay: 0s;
@@ -341,30 +338,6 @@
   animation-direction: alternate;
   animation-timing-function: ease-in;
   animation-duration: 0.3s;
-}
-
-@keyframes heart-scale {
-  from {
-    scale: 1;
-  }
-  50% {
-    scale: 1.5;
-  }
-  100% {
-    scale: 1;
-  }
-}
-
-@keyframes heart-sparks {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 
 .button {
@@ -431,14 +404,14 @@
   inline-size: 100%;
 }
 
-footer {
+.footer {
   padding-block: 50px 105px;
 }
 
 .floppy {
   position: relative;
   z-index: 1;
-  color: #fff;
+  color: var(--button-text-color, #fff);
   inline-size: var(--floppy-size, 28px);
   block-size: var(--floppy-size, 28px);
   mix-blend-mode: difference;
@@ -457,6 +430,11 @@ footer {
   text-transform: uppercase;
   background-color: var(--bg-color, #fff);
   max-inline-size: 357px;
+}
+
+.modal__title {
+  font-size: var(--accent-font-size, 0.875rem);
+  line-height: 1.5;
 }
 
 .floppy--modal {
