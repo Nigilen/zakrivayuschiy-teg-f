@@ -2,7 +2,7 @@
   --font: 'Inter-Variable';
   --font-accent: 'PressStart2P-Regular';
 
-  --main-font-size: 1.125rem; 
+  --main-font-size: 1.125rem;
   --accent-font-size: 0.875rem;
   
   --floppy-size: 21px;
@@ -40,7 +40,7 @@
 }
 
 @media (width <= 375px) {
-  :root { 
+  :root {
     --floppy-size: 28px;
     --modal-padding-inline: 40px;
   }

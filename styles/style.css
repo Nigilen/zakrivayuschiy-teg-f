@@ -249,7 +249,7 @@
   border: 2px solid transparent;
   padding: 0 4px 0 0;
   background-color: transparent;
-  transition-duration: 0.3s; 
+  transition-duration: 0.3s;
   transition-timing-function: ease;
   cursor: pointer;
 }
@@ -260,7 +260,7 @@
 
 .card__icon-button:focus-visible {
   border: 2px solid var(--main-color, #000);
-  transition-duration: 0.3s; 
+  transition-duration: 0.3s;
   transition-timing-function: ease;
 }
 
@@ -380,7 +380,7 @@
   position: absolute;
   inset: 0;
   background-color: var(--main-color, #000);
-  transition-duration: 0.5s; 
+  transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
   transform: scaleX(0);
   transform-origin: left center;
