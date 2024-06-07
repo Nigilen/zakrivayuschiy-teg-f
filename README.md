@@ -2,9 +2,9 @@
 
 Одностраничный сайт, оформленный в виде карточек с описаниями этапов прохождения блока курса «Вёрстка».
 ___
-СТЕК: HTML, CSS, JS, SVG
+**СТЕК**: HTML, CSS, JS, SVG
 
-ДЕПЛОЙ: [ссылка](https://nigilen.github.io/zakrivayuschiy-teg-f/)
+**ДЕПЛОЙ**: [ссылка](https://nigilen.github.io/zakrivayuschiy-teg-f/)
 ___
 
 ## Цели проектной работы 
